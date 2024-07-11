@@ -13,11 +13,7 @@ Created on Thu Jul 11 16:07:10 2024
 
 numXs = int(input('How many times should I print the letter X? '))
 toPrint = ''
-
-if numXs < 1:
-    print ("Value of numXs is less than or equal to zero")
-else:
-    while(numXs > 0):
-        toPrint += 'X'
-        numXs -= 1
-    print(toPrint)
+while(numXs > 0):
+    toPrint += 'X'
+    numXs -= 1
+print(toPrint)
