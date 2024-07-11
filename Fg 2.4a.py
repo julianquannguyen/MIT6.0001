@@ -11,8 +11,6 @@ Created on Thu Jul 11 16:07:10 2024
 ###         #concatenate X to toPrint numXs times
 ###         print(toPrint)
 
-
-
 numXs = int(input('How many times should I print the letter X? '))
 toPrint = ''
 
