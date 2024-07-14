@@ -9,8 +9,8 @@ Created on Thu Jul 11 16:52:13 2024
 # prints the largest odd number that was entered. If no odd number was entered,  
 # it should print a message to that effect
 
-#a placeholder to store the largest odd number found during the loop iterations.
-#Initialize y to None to signify no odd number has been found yet
+# A placeholder to store the largest odd number found during the loop iterations.
+# Initialize y to None to signify no odd number has been found yet
 largest_odd = None
 
 for number in range (10):
