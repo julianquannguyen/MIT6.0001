@@ -20,7 +20,7 @@ if (x%2 != 0 and y%2 != 0 and z%2 !=0):
         print ("Y is the largest odd number.")
     else:
         print("z is the largest odd number.")
-elif(x%2 != 0 or y%2 != 0 or z%2 !=0):
+elif(x%2 != 0 or y%2 != 0 or z%2 != 0):
     print("x, y, z must be all odd numbers to compare largest number.")
 else:
     print("No odd numbers to compare.")
