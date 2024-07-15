@@ -12,6 +12,7 @@ Created on Thu Jul 11 16:52:13 2024
 # A placeholder to store the largest odd number found during the loop iterations.
 # Initialize y to None to signify no odd number has been found yet
 largest_odd = None
+counter = 0
 
 while counter < 10:
     #while loop to enter 10 numbers
@@ -37,11 +38,12 @@ else:
 
 # This version can only work for positive integer. If you initialize 0 to largest number -> get error bc cannot compare none to int 
 ### largest_odd = 0
-### for counter in range(10):
+### counter = 0
+### while counter < 10:
 ###     number = int(input("Enter a number: "))
 ###     if (number % 2 == 1 and number > largest_odd):
 ###         largest_odd = number
-
+###         counter +=1
 ### if (largest_odd == 0):
 ###     print("All are even")
 ### else:
