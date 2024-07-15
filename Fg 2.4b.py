@@ -13,9 +13,10 @@ Created on Thu Jul 11 16:52:13 2024
 # Initialize y to None to signify no odd number has been found yet
 largest_odd = None
 
-for number in range (10):
-    # Enter 10 numbers 
+while counter < 10:
+    #while loop to enter 10 numbers
     number = int (input("Enter an integer: "))
+    counter +=1
     # Check condition if number is odd 
     if (number%2 == 1):
         # Update y if it is the first odd number or if x is greater than the current y
